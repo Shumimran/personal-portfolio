@@ -25,9 +25,12 @@ const About = () => {
               <h1 className="title-font text-center md:text-left sm:text-3xl text-2xl mb-4 font-medium text-blue-500">
                 About Me
               </h1>
-              <p className="text-justify leading-loose mr-10 mb-5">
-                Hi, I am Shumaila Imran, 46 years old, a housewife. As an arts graduate with a passion for learning, I've developed a strong foundation in computer skills and now seek to expand my horizons in emerging technologies. I'm excited to dive into the realms of Artificial Intelligence (AI) and Metaverse, exploring their vast potential to transform industries and revolutionize human experiences. With a keen interest in innovation and creativity, I'm eager to acquire new skills and knowledge in these cutting-edge fields, paving the way for a future where art, technology, and imagination converge.
-              </p>
+              {/* eslint-disable react/no-unescaped-entities */}
+          <p className="text-justify leading-loose mr-10 mb-5">
+            Hi! I am Shumaila Imran, a housewife, and I am 46 years old. As an arts graduate passionate about learning, I've developed a strong foundation in computer skills and now seek to expand my horizons in emerging technologies. I'm excited to dive into Artificial Intelligence (AI) and Metaverse, exploring their vast potential to transform industries and revolutionize human experiences. With a keen interest in innovation and creativity, I'm eager to acquire new skills and knowledge in these cutting-edge fields, paving the way for a future where art, technology, and imagination converge.
+          </p>
+           {/* eslint-enable react/no-unescaped-entities  */}
+
               <div className="flex justify-center md:justify-start">
                 <Link href="https://hackathone-milestone-1-2-ebon.vercel.app/">
                   <button className="inline-flex text-white bg-[#133E87] border-0 py-2 px-4 focus:outline-none hover:bg-[#608BC1] rounded font-semibold">

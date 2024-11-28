@@ -25,7 +25,7 @@ const Hero = () => {
         Web developer, UI/UX Designer.
       </h1>
       <p data-aos="zoom-in" className="mb-10 text-lg text-justify leading-relaxed content-normal normal ">
-      "As a web and UI/UX designer, I bring a blend of creativity and analytical thinking to design seamless, engaging digital experiences. With a strong focus on user-centered design, I craft interfaces that not only look visually appealing but also enhance usability and accessibility. Constantly exploring new design trends and tools, I’m dedicated to creating impactful, responsive designs that meet both client goals and user needs."
+      As a web and UI/UX designer, I bring a blend of creativity and analytical thinking to design seamless, engaging digital experiences. With a strong focus on user-centered design, I craft interfaces that not only look visually appealing but also enhance usability and accessibility. Constantly exploring new design trends and tools, I’m dedicated to creating impactful, responsive designs that meet both client goals and user needs.
 
       </p>
       <div className="flex justify-center">
